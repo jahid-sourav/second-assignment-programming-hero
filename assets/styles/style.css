@@ -118,6 +118,11 @@ body{
     line-height: 48px;
     font-weight: 800; 
 }
+.subheading{
+    max-width: 643px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .normal-text{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -323,4 +328,42 @@ body{
     font-size: 28px; 
     font-weight: 800; 
 }
-/* Choose Destination Ends Here */
+/* Choose Destination Ends Here */     
+
+/* Choose Us Starts Here */     
+.choose-us{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+    justify-content: center;
+} 
+.first-choose-us-card{
+    grid-column: 1 / 7;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}     
+.second-choose-us-card{
+    grid-column: 7 / -1;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}     
+.third-choose-us-card{
+    grid-column: 4 / 10;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}   
+.choose-us-card{
+    padding: 32px;
+} 
+.choose-us-card h5{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: var(--darkColor);
+    font-size: 24px; 
+    font-weight: 800; 
+} 
+/* Choose Us Ends Here */           
