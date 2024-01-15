@@ -30,6 +30,9 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+.full-width{
+    width: 100%;
+}
 .section-gap{
     padding-bottom: 100px;
 }
@@ -176,6 +179,7 @@ body{
     font-size: 20px; 
     font-weight: 800;
     padding: 14px 28px;
+    border-color: transparent;
 }
 /* Buttons Ends Here */
 /* Shared Classes Ends Here */
@@ -202,7 +206,7 @@ body{
 /* Hero Area Starts Here */
 .hero-area{
     border-radius: 16px; 
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/hero/banner.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -477,3 +481,69 @@ body{
     cursor: pointer;
 }
 /* CTA Area Ends Here */
+
+/* Newsletter Starts Here */
+.newsletter{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+}
+.newsletter-left{
+    grid-column: 1 / 6;
+    border-radius: 16px;
+    border: 1px solid var(--tertiaryColor);
+    padding: 40px;
+}
+.newsletter-left h4{
+    font-size: 24px; 
+    font-weight: 800;
+    color: var(--darkColor);
+    margin-bottom: 16px;
+}
+.newsletter-left p{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.newsletter-left form input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 20px;
+    color: rgba(19, 19, 24, 0.30); 
+    font-size: 16px; 
+    font-weight: 400; 
+    width: 100%;
+    outline: 0;
+    border-color: transparent;
+}
+.newsletter-right{
+    grid-column: 6 / -1;
+    position: relative;
+}
+.newsletter-right-badge{
+    padding: 15px 25px;
+    background-color: var(--tertiaryColor);
+    color: white;
+    border-radius: 16px; 
+    max-width: 324px;
+    text-align: center;
+    transform: rotate(-19.628deg); 
+    position: absolute;
+    right: 4px;
+    bottom: 62px;
+}
+.newsletter-right-badge a{
+    display: inline-block;
+    color: #FFF; 
+    font-size: 24px; 
+    font-weight: 400; 
+    margin-bottom: 6px;
+}
+.newsletter-right-badge h5{
+    color: #FFF; 
+    font-size: 32px; 
+    font-weight: 800; 
+}
+/* Newsletter Ends Here */
