@@ -505,7 +505,11 @@ body{
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    margin-bottom: 48px;
+    margin-bottom: 10px;
+}
+.newsletter-left form{
+    padding-top: 24px;
+    border-top: 1px solid #1313181a;
 }
 .newsletter-left form input{
     border-radius: 8px;
@@ -532,7 +536,7 @@ body{
     transform: rotate(-19.628deg); 
     position: absolute;
     right: 4px;
-    bottom: 62px;
+    bottom: 50px;
 }
 .newsletter-right-badge a{
     display: inline-block;
@@ -547,3 +551,44 @@ body{
     font-weight: 800; 
 }
 /* Newsletter Ends Here */
+
+/* Footer Starts Here */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    padding: 50px 0px;
+}
+footer .default-text{
+    max-width: 769px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.social-links a{
+    display: inline-block;
+    color: var(--darkColor);
+    font-size: 20px;
+    transform: scale(1);
+    transition: 0.4s all ease-in-out;
+}
+.social-links a:hover{
+    transform: scale(1.1);
+    color: var(--tertiaryColor);
+}
+.footer-bottom{
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #1313181a;
+}
+.footer-bottom p{
+    font-size: 16px; 
+    font-weight: 300; 
+    color: var(--darkColor);
+}
+/* Footer Ends Here */
