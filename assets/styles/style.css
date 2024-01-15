@@ -435,3 +435,45 @@ body{
     grid-column: 1 / 7;
 }
 /* Deals Discounts Ends Here */
+
+/* CTA Area Starts Here */
+.cta-area{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+}
+.cta-area-left{
+    grid-column: 1 / 7;
+}
+.cta-area-left .cta-area-left-point{
+    font-size: 16px; 
+    font-weight: 700;
+    color: var(--darkColor);
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 12px;
+}
+.cta-area-left .cta-area-left-point::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 0px;
+    height: 5px;
+    width: 5px;
+    background-color: var(--darkColor);
+    border-radius: 50%;
+}
+.cta-area-left .primary-button{
+    margin-top: 16px;
+}
+.cta-area-right{
+    grid-column: 7 / -1;
+}
+.cta-area-right .video{
+    width: 100%;
+    height: auto; 
+    border-radius: 16px;
+    object-fit: cover;
+    cursor: pointer;
+}
+/* CTA Area Ends Here */
