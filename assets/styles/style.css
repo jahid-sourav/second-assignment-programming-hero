@@ -157,6 +157,9 @@ body{
 .mb-32{
     margin-bottom: 32px;
 }
+.mb-48{
+    margin-bottom: 48px;
+}
 /* Margin Ends Here */
 
 /* Buttons Starts Here */
@@ -269,3 +272,49 @@ body{
     background-color: #424247;
 }
 /* Popular Tours Ends Here */
+
+/* Choose Destination Starts Here */
+.choose-destination-subheading{
+    max-width: 643px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose-destination{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+}
+.first-destination{
+    grid-column: 1 / 7;
+}
+.second-destination{
+    grid-column: 7 / -1;
+}
+.third-destination{
+    grid-column: 1 / 5;
+}
+.forth-destination{
+    grid-column: 5 / 10;
+}
+.fifth-destination{
+    grid-column: 10 / -1;
+}
+.sixth-destination{
+    grid-column: 1 / 6;
+}
+.seventh-destination{
+    grid-column: 6 / -1;
+}
+.choose-destination-card{
+    position: relative;
+}
+.choose-destination-card h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF; 
+    font-size: 28px; 
+    font-weight: 800; 
+}
+/* Choose Destination Ends Here */
