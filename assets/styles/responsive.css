@@ -221,6 +221,16 @@
         font-size: 16px;
     }
     /* Newsletter Responsive Ends Here */
+
+    /* Footer Responsive Starts Here */
+    footer{
+        padding: 30px 0px;
+    }
+    .footer-bottom{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    /* Footer Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -454,6 +464,19 @@
         font-size: 16px;
     }
     /* Newsletter Responsive Ends Here */
+
+    /* Footer Responsive Starts Here */
+    footer{
+        padding: 30px 0px;
+    }
+    footer .default-text{
+        max-width: 60%;
+    }
+    .footer-bottom{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    /* Footer Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -694,6 +717,19 @@
         font-size: 16px;
     }
     /* Newsletter Responsive Ends Here */
+
+    /* Footer Responsive Starts Here */
+    footer{
+        padding: 30px 0px;
+    }
+    footer .default-text{
+        max-width: 60%;
+    }
+    .footer-bottom{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    /* Footer Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -899,6 +935,19 @@
         font-size: 16px;
     }
     /* Newsletter Responsive Ends Here */
+
+    /* Footer Responsive Starts Here */
+    footer{
+        padding: 40px 0px;
+    }
+    footer .default-text{
+        max-width: 60%;
+    }
+    .footer-bottom{
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    /* Footer Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
