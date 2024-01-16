@@ -119,7 +119,7 @@
     }
     /* Choose Us Responsive Ends Here */
 
-    /* Deals Discounts Starts Here */
+    /* Deals Discounts Responsive Starts Here */
     .deals-discounts-subheading,
     .deals-discounts-heading{
         margin-bottom: 16px;
@@ -152,7 +152,21 @@
         margin-top: 10px;
         margin-bottom: 16px;
     }
-    /* Deals Discounts Ends Here */
+    /* Deals Discounts Responsive Ends Here */
+
+    /* CTA Area Responsive Starts */
+    .cta-area{
+        grid-template-columns: 1fr;
+    }
+    .cta-area-left .default-text,
+    .cta-area-left .heading{
+        margin-bottom: 16px;
+    }
+    .cta-area-left .cta-area-left-point{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* CTA Area Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -283,7 +297,7 @@
     }
     /* Choose Us Responsive Ends Here */
 
-    /* Deals Discounts Starts Here */
+    /* Deals Discounts Responsive Starts Here */
     .deals-discounts-subheading,
     .deals-discounts-heading{
         margin-bottom: 16px;
@@ -313,7 +327,21 @@
         margin-top: 10px;
         margin-bottom: 16px;
     }
-    /* Deals Discounts Ends Here */
+    /* Deals Discounts Responsive Ends Here */
+
+    /* CTA Area Responsive Starts */
+    .cta-area{
+        grid-template-columns: 1fr;
+    }
+    .cta-area-left .default-text,
+    .cta-area-left .heading{
+        margin-bottom: 16px;
+    }
+    .cta-area-left .cta-area-left-point{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* CTA Area Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -445,7 +473,7 @@
     }
     /* Choose Us Responsive Ends Here */
 
-    /* Deals Discounts Starts Here */
+    /* Deals Discounts Responsive Starts Here */
     .deals-discounts-subheading,
     .deals-discounts-heading{
         margin-bottom: 16px;
@@ -479,7 +507,21 @@
         margin-top: 10px;
         margin-bottom: 16px;
     }
-    /* Deals Discounts Ends Here */
+    /* Deals Discounts Responsive Ends Here */
+
+    /* CTA Area Responsive Starts */
+    .cta-area{
+        grid-template-columns: 1fr;
+    }
+    .cta-area-left .default-text,
+    .cta-area-left .heading{
+        margin-bottom: 16px;
+    }
+    .cta-area-left .cta-area-left-point{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* CTA Area Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -580,7 +622,7 @@
     }
     /* Choose Us Responsive Ends Here */
 
-    /* Deals Discounts Starts Here */
+    /* Deals Discounts Responsive Starts Here */
     .deals-discounts-subheading,
     .deals-discounts-heading{
         margin-bottom: 16px;
@@ -611,7 +653,22 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    /* Deals Discounts Ends Here */
+    /* Deals Discounts Responsive Ends Here */
+
+    /* CTA Area Responsive Starts */
+    .cta-area{
+        align-items: center;
+        grid-gap: 16px;
+    }
+    .cta-area-left .default-text,
+    .cta-area-left .heading{
+        margin-bottom: 16px;
+    }
+    .cta-area-left .cta-area-left-point{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* CTA Area Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
