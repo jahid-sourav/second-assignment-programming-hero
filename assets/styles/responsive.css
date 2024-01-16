@@ -1,30 +1,137 @@
 /* Extra Small Devices (Phones) Starts Here */
 @media screen and (max-width:576px){
-
+    /* Hero Responsive Starts Here */
+    .section-gap{
+        padding-bottom: 24px;
+    }
+    .container{
+        width: 95%;
+    }
+    .hero-area{
+        padding: 32px 16px;
+    }
+    .hero-area-content h2{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .hero-area-content p{
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 32px;
+    }
+    .search-form form{
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
+    .search-form form select, .search-form form input[type="text"],
+    .search-form form button[type="submit"],
+    .search-form form select{
+        min-width: 100%;
+    }
+    /* Hero Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
 /* Small Devices (Tablets) Starts Here */
 @media screen and (min-width: 576px) and (max-width: 768px){
-
+    /* Hero Responsive Starts Here */
+    .section-gap{
+        padding-bottom: 30px;
+    }
+    .container{
+        width: 95%;
+    }
+    .hero-area{
+        padding: 40px 20px;
+    }
+    .hero-area-content h2{
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+    .hero-area-content p{
+        max-width: 90%;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 32px;
+    }
+    .search-form form{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .search-form form select, .search-form form input[type="text"],
+    .search-form form button[type="submit"],
+    .search-form form select{
+        min-width: 100%;
+    }
+    /* Hero Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
 /* Medium Devices (Laptops and Small Desktops) Starts Here */
 @media screen and (min-width: 768px) and (max-width: 992px){
-
+    /* Hero Responsive Starts Here */
+    .section-gap{
+        padding-bottom: 30px;
+    }
+    .container{
+        width: 95%;
+    }
+    .hero-area{
+        padding: 40px 20px;
+    }
+    .hero-area-content h2{
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 16px;
+    }
+    .hero-area-content p{
+        max-width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    .search-form form{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .search-form form select, .search-form form input[type="text"],
+    .search-form form button[type="submit"],
+    .search-form form select{
+        min-width: 100%;
+    }
+    /* Hero Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
 /* Large Devices (Desktops) Starts Here */
 @media screen and (min-width: 992px) and (max-width: 1200px){
-
+    /* Hero Responsive Starts Here */
+        .section-gap{
+            padding-bottom: 50px;
+        }
+        .container{
+            width: 90%;
+        }
+        .hero-area{
+            padding: 60px 0px;
+        }
+        .hero-area-content h2{
+            font-size: 50px;
+            line-height: 58px;
+            margin-bottom: 16px;
+        }
+        .hero-area-content p{
+            max-width: 50%;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 32px;
+        }
+   /* Hero Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
 
 /* Extra Large Devices (Large Desktops) Starts Here */
-@media screen and (min-width: 1200px){
-
-}
+@media screen and (min-width: 1200px){}
 /* Extra Large Devices (Large Desktops) Ends Here */
