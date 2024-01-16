@@ -31,6 +31,38 @@
         min-width: 100%;
     }
     /* Hero Responsive Ends Here */
+
+    /* Popular Tours Responsive Starts Here */
+    .popular-tours{
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+    }
+    .heading{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .popular-tours .heading{
+        margin-bottom: 16px;
+    }
+    .default-text,
+    .normal-text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-tours-info > .normal-text{
+        margin-bottom: 16px;
+    }
+    .popular-tours-info .default-text{
+        margin-bottom: 16px;
+    }
+    .primary-button{
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .popular-tours-image{
+        text-align: center;
+    }
+    /* Popular Tours Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -66,6 +98,38 @@
         min-width: 100%;
     }
     /* Hero Responsive Ends Here */
+
+    /* Popular Tours Responsive Starts Here */
+    .popular-tours{
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+    }
+    .heading{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .popular-tours .heading{
+        margin-bottom: 16px;
+    }
+    .default-text,
+    .normal-text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-tours-info > .normal-text{
+        margin-bottom: 16px;
+    }
+    .popular-tours-info .default-text{
+        margin-bottom: 16px;
+    }
+    .primary-button{
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .popular-tours-image{
+        text-align: center;
+    }
+    /* Popular Tours Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -101,33 +165,76 @@
         min-width: 100%;
     }
     /* Hero Responsive Ends Here */
+        
+    /* Popular Tours Responsive Starts Here */
+    .popular-tours{
+        grid-template-columns: repeat(2 ,1fr);
+        grid-gap: 16px;
+        align-items: center;
+    }
+    .heading{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .popular-tours .heading{
+        margin-bottom: 16px;
+    }
+    .default-text,
+    .normal-text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-tours-info > .normal-text{
+        margin-bottom: 16px;
+    }
+    .popular-tours-info .default-text{
+        margin-bottom: 16px;
+    }
+    .primary-button{
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .popular-tours-image{
+        text-align: center;
+    }
+    /* Popular Tours Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
 /* Large Devices (Desktops) Starts Here */
 @media screen and (min-width: 992px) and (max-width: 1200px){
     /* Hero Responsive Starts Here */
-        .section-gap{
-            padding-bottom: 50px;
-        }
-        .container{
-            width: 90%;
-        }
-        .hero-area{
-            padding: 60px 0px;
-        }
-        .hero-area-content h2{
-            font-size: 50px;
-            line-height: 58px;
-            margin-bottom: 16px;
-        }
-        .hero-area-content p{
-            max-width: 50%;
-            font-size: 16px;
-            line-height: 24px;
-            margin-bottom: 32px;
-        }
-   /* Hero Responsive Ends Here */
+    .section-gap{
+        padding-bottom: 50px;
+    }
+    .container{
+        width: 90%;
+    }
+    .hero-area{
+        padding: 60px 0px;
+    }
+    .hero-area-content h2{
+        font-size: 50px;
+        line-height: 58px;
+        margin-bottom: 16px;
+    }
+    .hero-area-content p{
+        max-width: 50%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    /* Hero Responsive Ends Here */
+
+    /* Popular Tours Responsive Starts Here */
+    .heading{
+            font-size: 36px;
+            line-height: 44px;
+    }
+    .popular-tours{
+            grid-gap: 24px;
+    }
+    /* Popular Tours Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
