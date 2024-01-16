@@ -19,7 +19,7 @@
 </head>
 <body>
     <!-- Header Starts Here --> 
-    <header class="pt-10 pb-50 d-none">
+    <header class="pt-10 pb-50">
         <div class="container">
             <nav class="navbar d-flex align-items-center justify-content-between">
                 <div class="navbar-logo">
@@ -42,12 +42,33 @@
                     <li><a href="#" class="text-dark-simple fs-18 fw-400">Contact</a></li>
                 </ul>
             </nav>
+            <!-- Mobile Menu Starts Here -->
+            <nav class="mobile-menu">
+                <div class="mobile-menu-logo">
+                    <a href="index.html">
+                        <img src="assets/images/swift-trips.png" alt="Logo" class="img-fluid">
+                    </a>
+                </div>
+                <input type="checkbox" id="checkBox">
+                <label for="checkBox" class="mobile-menu-icon">
+                    <i class="fa-solid fa-bars" id="hamburgerIcon"></i>
+                    <i class="fa-solid fa-x" id="closeIcon"></i>
+                </label>
+                <div class="mobile-menu-items">
+                    <a href="index.html" class="active-page">Home</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Testimonial</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+            <!-- Mobile Menu Ends Here -->
         </div>
     </header>
     <!-- Header Ends Here --> 
     <main>
         <!-- Hero Area Starts Here -->
-        <section class="section-gap pt-10">
+        <section class="section-gap">
             <div class="container">
                 <div class="hero-area">
                     <div class="hero-area-content">

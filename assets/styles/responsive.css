@@ -1,5 +1,26 @@
 /* Extra Small Devices (Phones) Starts Here */
 @media screen and (max-width:576px){
+    /* Header Responsive Starts Here */
+    header{
+        padding-bottom: 20px !important;
+    }
+    .navbar{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .mobile-menu-logo{
+        padding-left: 10px;
+    }
+    .mobile-menu-icon{
+        padding-right: 10px;
+    }
+    .mobile-menu-logo img{
+        width: 180px;
+    }
+    /* Header Responsive Ends Here */
+
     /* Hero Responsive Starts Here */
     .section-gap{
         padding-bottom: 24px;
@@ -236,6 +257,31 @@
 
 /* Small Devices (Tablets) Starts Here */
 @media screen and (min-width: 576px) and (max-width: 768px){
+    /* Header Responsive Starts Here */
+    header{
+        padding-bottom: 20px !important;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar-logo .text-dark{
+        font-size: 20px;
+        margin-left: 6px;
+    }
+    .navbar-logo img{
+        width: 40px;
+    }
+    .navbar-items > li {
+        margin-right: 15px;
+    }
+    .navbar-items > li > a{
+        font-size: 16px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    /* Header Responsive Ends Here */
+
     /* Hero Responsive Starts Here */
     .section-gap{
         padding-bottom: 30px;
@@ -482,6 +528,25 @@
 
 /* Medium Devices (Laptops and Small Desktops) Starts Here */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    /* Header Responsive Starts Here */
+    header{
+        padding-bottom: 20px !important;
+    }
+    .navbar-logo .text-dark{
+        font-size: 20px;
+        margin-left: 6px;
+    }
+    .navbar-logo img{
+        width: 40px;
+    }
+    .navbar-items > li > a{
+        font-size: 16px;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    /* Header Responsive Ends Here */
+
     /* Hero Responsive Starts Here */
     .section-gap{
         padding-bottom: 30px;
@@ -735,6 +800,15 @@
 
 /* Large Devices (Desktops) Starts Here */
 @media screen and (min-width: 992px) and (max-width: 1200px){
+    /* Header Responsive Starts Here */
+    header{
+        padding-bottom: 20px !important;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    /* Header Responsive Ends Here */
+
     /* Hero Responsive Starts Here */
     .section-gap{
         padding-bottom: 50px;
@@ -951,9 +1025,14 @@
 }
 /* Large Devices (Desktops) Ends Here */
 
-
 /* Extra Large Devices (Large Desktops) Starts Here */
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px){
+    /* Header Responsive Starts Here */
+    .mobile-menu{
+        display: none;
+    }
+    /* Header Responsive Ends Here */
+}
 /* Extra Responsive */
 @media screen and (min-width: 1201px) and (max-width: 1252px){
     .deals-discounts-card-top p span{

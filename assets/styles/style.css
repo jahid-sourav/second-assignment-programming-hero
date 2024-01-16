@@ -201,6 +201,88 @@ body{
 .navbar-items > li > a.active{
     color: var(--tertiaryColor);
 }
+.mobile-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+}
+.mobile-menu::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.mobile-menu-logo a{
+    display: inline-block;
+}
+.mobile-menu-icon{
+    font-size: 26px;
+    color: #131318;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#hamburgerIcon{
+    transition: 0.4s ease-in-out;
+}
+#hamburgerIcon:hover{
+    color: #FF5400;
+}
+#checkBox:checked~.mobile-menu-icon #hamburgerIcon,
+#checkBox,
+.mobile-menu-icon #closeIcon{
+    display: none;
+}
+#checkBox:checked~.mobile-menu-icon #closeIcon{
+    display: block;
+    color: #FF5400;
+}
+#checkBox:not(:checked)~.mobile-menu-items{
+    opacity: 0;
+    visibility: hidden;
+}
+#checkBox:checked~.mobile-menu-items{
+    opacity: 1;
+    visibility: visible;
+}
+.mobile-menu-items{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 16px;
+    transition: 0.4s ease-in-out;
+}
+.mobile-menu-items a{
+    font-size: 20px;
+    line-height: 28px;
+    color: #f4f4f4;
+    display: block;
+    margin-bottom: 20px;
+    transition: 0.4s ease;
+}
+.mobile-menu-items a.active-page,
+.mobile-menu-items a:hover{
+    color: #FF5400;
+}
+.mobile-menu-items a:last-child{
+    margin-right: 0;
+}
 /* Header Ends Here */
 
 /* Hero Area Starts Here */
