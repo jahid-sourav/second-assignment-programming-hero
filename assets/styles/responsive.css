@@ -94,6 +94,30 @@
         width: 100%;
     }
     /* Choose Destination Responsive Ends Here */
+
+    /* Choose Us Responsive Starts Here */
+    .choose-us-subheading,
+    .choose-us-heading{
+        margin-bottom: 16px;
+    }
+    .choose-us{
+        margin-top: 0;
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
+    .third-choose-us-card,
+    .second-choose-us-card,
+    .first-choose-us-card{
+        grid-column: auto;
+    }
+    .choose-us-card{
+        padding: 16px;
+    }
+    .choose-us-card h5{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    /* Choose Us Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -196,6 +220,33 @@
         border-radius: 16px;
     }
     /* Choose Destination Responsive Ends Here */
+
+    /* Choose Us Responsive Starts Here */
+    .choose-us-subheading,
+    .choose-us-heading{
+        margin-bottom: 16px;
+    }
+    .choose-us-subheading{
+        max-width: 70%;
+    }
+    .choose-us{
+        margin-top: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+    .third-choose-us-card,
+    .second-choose-us-card,
+    .first-choose-us-card{
+        grid-column: auto;
+    }
+    .choose-us-card{
+        padding: 16px;
+    }
+    .choose-us-card h5{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    /* Choose Us Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -299,6 +350,33 @@
         border-radius: 16px;
     }
     /* Choose Destination Responsive Ends Here */
+
+    /* Choose Us Responsive Starts Here */
+    .choose-us-subheading,
+    .choose-us-heading{
+        margin-bottom: 16px;
+    }
+    .choose-us-subheading{
+        max-width: 70%;
+    }
+    .choose-us{
+        margin-top: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+    .third-choose-us-card,
+    .second-choose-us-card,
+    .first-choose-us-card{
+        grid-column: auto;
+    }
+    .choose-us-card{
+        padding: 16px;
+    }
+    .choose-us-card h5{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    /* Choose Us Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -371,6 +449,33 @@
         border-radius: 16px;
     }
     /* Choose Destination Responsive Ends Here */
+
+    /* Choose Us Responsive Starts Here */
+    .choose-us-subheading,
+    .choose-us-heading{
+        margin-bottom: 20px;
+    }
+    .choose-us-subheading{
+        max-width: 70%;
+    }
+    .choose-us{
+        margin-top: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+    }
+    .third-choose-us-card,
+    .second-choose-us-card,
+    .first-choose-us-card{
+        grid-column: auto;
+    }
+    .choose-us-card{
+        padding: 26px;
+    }
+    .choose-us-card h5{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    /* Choose Us Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
