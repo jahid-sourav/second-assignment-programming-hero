@@ -167,6 +167,23 @@
         line-height: 22px;
     }
     /* CTA Area Responsive Ends Here */
+
+    /* Recent Blogs Responsive Starts Here */
+    .recent-blogs-subheading,
+    .recent-blogs-heading{
+        margin-bottom: 16px;
+    }
+    .recent-blogs{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
+    .recent-blogs-card a{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* Recent Blogs Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -342,6 +359,23 @@
         line-height: 22px;
     }
     /* CTA Area Responsive Ends Here */
+
+    /* Recent Blogs Responsive Starts Here */
+    .recent-blogs-subheading,
+    .recent-blogs-heading{
+        margin-bottom: 16px;
+    }
+    .recent-blogs{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+    .recent-blogs-card a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* Recent Blogs Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -522,6 +556,23 @@
         line-height: 22px;
     }
     /* CTA Area Responsive Ends Here */
+
+    /* Recent Blogs Responsive Starts Here */
+    .recent-blogs-subheading,
+    .recent-blogs-heading{
+        margin-bottom: 16px;
+    }
+    .recent-blogs{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+    .recent-blogs-card a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* Recent Blogs Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -669,6 +720,22 @@
         line-height: 22px;
     }
     /* CTA Area Responsive Ends Here */
+
+    /* Recent Blogs Responsive Starts Here */
+    .recent-blogs-subheading,
+    .recent-blogs-heading{
+        margin-bottom: 20px;
+    }
+    .recent-blogs{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        grid-gap: 16px;
+    }
+    .recent-blogs-card a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* Recent Blogs Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
