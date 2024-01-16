@@ -118,6 +118,41 @@
         font-size: 18px;
     }
     /* Choose Us Responsive Ends Here */
+
+    /* Deals Discounts Starts Here */
+    .deals-discounts-subheading,
+    .deals-discounts-heading{
+        margin-bottom: 16px;
+    }
+    .deals-discounts{
+        margin: 0;
+        margin-bottom: 26px;
+        grid-gap: 16px;
+    }
+    .deals-discounts-content{
+        padding: 187px 16px 16px 16px;
+        grid-template-columns: 1fr;
+    }
+    .deals-discounts-card{
+        padding: 20px;
+    }
+    .deals-discounts-card-top{
+        gap: 8px;
+    }
+    .deals-discounts-card-top p{
+        font-size: 14px;
+    }
+    .deals-discounts-card-top p span{
+        display: none;
+    }
+    .deals-discounts-card h5,
+    .deals-discounts-card h4{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+    /* Deals Discounts Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -247,6 +282,38 @@
         font-size: 18px;
     }
     /* Choose Us Responsive Ends Here */
+
+    /* Deals Discounts Starts Here */
+    .deals-discounts-subheading,
+    .deals-discounts-heading{
+        margin-bottom: 16px;
+    }
+    .deals-discounts{
+        margin: 0;
+        margin-bottom: 26px;
+        grid-gap: 16px;
+    }
+    .deals-discounts-content{
+        padding: 187px 16px 16px 16px;
+        grid-template-columns: 1fr;
+    }
+    .deals-discounts-card{
+        padding: 20px;
+    }
+    .deals-discounts-card-top{
+        gap: 8px;
+    }
+    .deals-discounts-card-top p{
+        font-size: 14px;
+    }
+    .deals-discounts-card h5,
+    .deals-discounts-card h4{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+    /* Deals Discounts Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -377,6 +444,42 @@
         font-size: 18px;
     }
     /* Choose Us Responsive Ends Here */
+
+    /* Deals Discounts Starts Here */
+    .deals-discounts-subheading,
+    .deals-discounts-heading{
+        margin-bottom: 16px;
+    }
+    .deals-discounts{
+        margin: 0;
+        margin-bottom: 26px;
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .deals-discounts-content{
+        padding: 187px 16px 16px 16px;
+        grid-template-columns: 1fr;
+    }
+    .deals-discounts-card{
+        padding: 20px;
+    }
+    .deals-discounts-card-top{
+        gap: 18px;
+    }
+    .deals-discounts-card-top p span{
+        display: none;
+    }
+    .deals-discounts-card-top p{
+        font-size: 14px;
+    }
+    .deals-discounts-card h5,
+    .deals-discounts-card h4{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+    /* Deals Discounts Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -476,10 +579,49 @@
         font-size: 20px;
     }
     /* Choose Us Responsive Ends Here */
+
+    /* Deals Discounts Starts Here */
+    .deals-discounts-subheading,
+    .deals-discounts-heading{
+        margin-bottom: 16px;
+    }
+    .deals-discounts{
+        margin: 0;
+        margin-bottom: 26px;
+        grid-gap: 16px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .deals-discounts-content{
+        padding: 187px 16px 16px 16px;
+        grid-template-columns: 1fr;
+    }
+    .deals-discounts-card{
+        padding: 20px;
+    }
+    .deals-discounts-card-top{
+        gap: 18px;
+    }
+    .deals-discounts-card-top p{
+        font-size: 14px;
+    }
+    .deals-discounts-card h5,
+    .deals-discounts-card h4{
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* Deals Discounts Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
 
 /* Extra Large Devices (Large Desktops) Starts Here */
 @media screen and (min-width: 1200px){}
+/* Extra Responsive */
+@media screen and (min-width: 1201px) and (max-width: 1252px){
+    .deals-discounts-card-top p span{
+        display: none;
+    }
+}
 /* Extra Large Devices (Large Desktops) Ends Here */
