@@ -184,6 +184,43 @@
         line-height: 22px;
     }
     /* Recent Blogs Responsive Ends Here */
+
+    /* Newsletter Responsive Starts Here */
+    .newsletter{
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
+    .newsletter-left,
+    .newsletter-right{
+        grid-column: auto;
+    } 
+    .newsletter-left{
+        padding: 14px;
+    }  
+    .newsletter-left h4{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .newsletter-left p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .newsletter-left form{
+        padding-top: 16px;
+    }
+    .newsletter-right-badge{
+        bottom: 20px;
+        padding: 10px;
+    }
+    .newsletter-right-badge a{
+        font-size: 14px;
+    }
+    .newsletter-right-badge h5{
+        font-size: 16px;
+    }
+    /* Newsletter Responsive Ends Here */
 }
 /* Extra Small Devices (Phones) Ends Here */
 
@@ -376,6 +413,47 @@
         line-height: 24px;
     }
     /* Recent Blogs Responsive Ends Here */
+
+    /* Newsletter Responsive Starts Here */
+    .newsletter{
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
+    .newsletter-left,
+    .newsletter-right{
+        grid-column: auto;
+    } 
+    .newsletter-left{
+        padding: 14px;
+    }  
+    .newsletter-left h4{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .newsletter-left p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .newsletter-left form{
+        padding-top: 16px;
+    }
+    .newsletter-right img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .newsletter-right-badge{
+        bottom: 20px;
+        padding: 10px;
+    }
+    .newsletter-right-badge a{
+        font-size: 14px;
+    }
+    .newsletter-right-badge h5{
+        font-size: 16px;
+    }
+    /* Newsletter Responsive Ends Here */
 }
 /* Small Devices (Tablets) Ends Here */
 
@@ -573,6 +651,49 @@
         line-height: 24px;
     }
     /* Recent Blogs Responsive Ends Here */
+
+    /* Newsletter Responsive Starts Here */
+    .newsletter{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+    }
+    .newsletter-left,
+    .newsletter-right{
+        grid-column: auto;
+    } 
+    .newsletter-left{
+        padding: 14px;
+    }  
+    .newsletter-left h4{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .newsletter-left p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .newsletter-left form{
+        padding-top: 16px;
+    }
+    .newsletter-right img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .newsletter-right-badge{
+        bottom: 20px;
+        padding: 10px;
+    }
+    .newsletter-right-badge a{
+        font-size: 14px;
+    }
+    .newsletter-right-badge h5{
+        font-size: 16px;
+    }
+    /* Newsletter Responsive Ends Here */
 }
 /* Medium Devices (Laptops and Small Desktops) Ends Here */
 
@@ -736,6 +857,48 @@
         line-height: 24px;
     }
     /* Recent Blogs Responsive Ends Here */
+
+    /* Newsletter Responsive Starts Here */
+    .newsletter{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .newsletter-left,
+    .newsletter-right{
+        grid-column: auto;
+    } 
+    .newsletter-left{
+        padding: 14px;
+    }  
+    .newsletter-left h4{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .newsletter-left p{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .newsletter-left form{
+        padding-top: 16px;
+    }
+    .newsletter-right img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .newsletter-right-badge{
+        bottom: 20px;
+        padding: 10px;
+    }
+    .newsletter-right-badge a{
+        font-size: 14px;
+    }
+    .newsletter-right-badge h5{
+        font-size: 16px;
+    }
+    /* Newsletter Responsive Ends Here */
 }
 /* Large Devices (Desktops) Ends Here */
 
@@ -747,5 +910,48 @@
     .deals-discounts-card-top p span{
         display: none;
     }
+}
+@media screen and (min-width: 1201px) and (max-width: 1350px){
+        /* Newsletter Responsive Starts Here */
+        .newsletter{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .newsletter-left,
+        .newsletter-right{
+            grid-column: auto;
+        } 
+        .newsletter-left{
+            padding: 14px;
+        }  
+        .newsletter-left h4{
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 8px;
+        }
+        .newsletter-left p{
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 16px;
+        }
+        .newsletter-left form{
+            padding-top: 16px;
+        }
+        .newsletter-right img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 16px;
+        }
+        .newsletter-right-badge{
+            bottom: 20px;
+            padding: 10px;
+        }
+        .newsletter-right-badge a{
+            font-size: 14px;
+        }
+        .newsletter-right-badge h5{
+            font-size: 16px;
+        }
+        /* Newsletter Responsive Ends Here */
 }
 /* Extra Large Devices (Large Desktops) Ends Here */
